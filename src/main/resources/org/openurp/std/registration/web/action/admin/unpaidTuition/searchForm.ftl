@@ -1,5 +1,5 @@
 [#ftl/]
-[@edu.semester name="unpaidTuition.semester.id" value=semester/]
+[@urp_base.semester name="unpaidTuition.semester.id" value=semester/]
 [@b.textfield name="unpaidTuition.std.user.code" label="学号"/]
 [@b.textfield name="unpaidTuition.std.user.name" label="姓名"/]
 [@b.textfield name="unpaidTuition.std.state.grade" label="年级"/]
