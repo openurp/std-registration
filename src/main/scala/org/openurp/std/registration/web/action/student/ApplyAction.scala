@@ -18,7 +18,6 @@
  */
 package org.openurp.std.registration.web.action.student
 
-
 import org.beangle.commons.web.util.RequestUtils
 import org.beangle.data.dao.OqlBuilder
 import org.beangle.security.Securities
@@ -26,14 +25,13 @@ import org.beangle.webmvc.api.annotation.mapping
 import org.beangle.webmvc.api.view.View
 import org.beangle.webmvc.entity.action.RestfulAction
 import org.openurp.base.edu.model.{Semester, Student}
-import org.openurp.boot.edu.helper.ProjectSupport
+import org.openurp.starter.edu.helper.ProjectSupport
 import org.openurp.std.registration.model.{RegisterSession, UnpaidTuition}
 import org.openurp.std.register.model.Register
 
 import java.time.Instant
 
 class ApplyAction extends RestfulAction[Register] with ProjectSupport {
-
 
   override def index(): View = {
     val std = getStudent2()

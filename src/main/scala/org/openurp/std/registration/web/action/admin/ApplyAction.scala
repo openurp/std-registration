@@ -19,7 +19,7 @@
 package org.openurp.std.registration.web.action.admin
 
 import org.beangle.webmvc.entity.action.RestfulAction
-import org.openurp.boot.edu.helper.ProjectSupport
+import org.openurp.starter.edu.helper.ProjectSupport
 import org.openurp.std.register.model.Register
 
 class ApplyAction extends RestfulAction[Register] with ProjectSupport {

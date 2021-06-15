@@ -25,7 +25,7 @@ import org.beangle.data.dao.OqlBuilder
 import org.beangle.webmvc.api.view.View
 import org.beangle.webmvc.entity.action.RestfulAction
 import org.openurp.base.edu.model.{Semester, Student}
-import org.openurp.boot.edu.helper.ProjectSupport
+import org.openurp.starter.edu.helper.ProjectSupport
 import org.openurp.std.registration.model.UnpaidTuition
 
 class UnpaidTuitionAction extends RestfulAction[UnpaidTuition] with ProjectSupport {
